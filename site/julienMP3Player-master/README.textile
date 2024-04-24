@@ -1,0 +1,37 @@
+h1. julienMP3Player
+
+jQuery plugin to embed an MP3 player (multi-track).
+
+h2. Dependencies
+
+# "jQuery":http://jquery.com
+# "jQuery UI *Draggable*":http://jqueryui.com/ (which depends on jQuery UI's *Core*, *Widget* and *Mouse*)
+# "SoundManager2":http://www.schillmania.com/projects/soundmanager2
+
+h2. Demo
+
+"See a Demo here":http://www.juliendesrosiers.com/demo/julienmp3player/
+
+h2. Usage
+
+First thing, you must have a node like this in your markup:
+
+pre. <ul id="myplaylist">
+<li><a href="ave_maria.mp3">Ave Maria</a></li>
+<li><a href="adagio_in_c_minor.mp3">Adagio in C minor</a></li>
+<li><a href="valse.mp3">Valse</a></li>
+</ul>
+
+Then you need to call julienMP3Player on a jQuery object like this:
+
+pre. $(function(){
+  $('#myplaylist').julienMP3Player({
+    soundManagerSwfURL: './swf/' // where the swf folder is located
+  });
+});
+
+h2. ToDo
+
+Some of the features i still have to implement are:
+
+# an API to play/pause/stop/next/previous the songs programmatically

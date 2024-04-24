@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Cardo';
+  src: url(../fontes/Cardo104s.ttf);
+}
+
+@font-face {
+  font-family: 'KOMIKAX';
+  src: url(../fontes/KOMIKAX_.ttf);
+}
+
+*{
+	font-family: 'Cardo';
+  font-size: 16px;
+}
+
+h1{
+	color: #ff280a;
+  font-family: 'KOMIKAX';
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.link-branco:link{
+	color:#fff;
+	text-decoration:none;
+}
+.link-branco:hover{
+	color:#fff;
+}
+.link-branco:active{
+	color:#fff;
+}
+.link-branco:visited{
+	color:#fff;
+}
+
+.link-vermelho:link{
+	color:#ff280a;
+	text-decoration:none;
+}
+.link-vermelho:hover{
+	color:#ff280a;
+}
+.link-vermelho:active{
+	color:#ff280a;
+}
+.link-vermelho:visited{
+	color:#ff280a;
+}
+
+.footer{
+  background-color: #ff280a;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.capa{
+	width: 80%;
+}
