@@ -313,7 +313,9 @@
 				</div><!--col-sm-->
 			</div><!--row-->
     </div><!-- container -->
-    <footer class="footer">
+    
+  </body>
+	<footer class="footer">
 			<div class="container">
 				<div class="row" style="margin-bottom: 40px;">
 					<div class="col-sm" style="margin-bottom: 20px;">
@@ -354,5 +356,4 @@
 				</div><!--row-->
 			</div><!--container-->
   	</footer>
-  </body>
 </html>
